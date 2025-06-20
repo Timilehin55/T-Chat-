@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Awesome GitHub Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f0f4f8; /* Light blue-gray background */
+        }
+        .container {
+            max-width: 90%;
+            margin: 2rem;
+            padding: 2.5rem;
+            background-color: #ffffff; /* White background for content */
+            border-radius: 1.5rem; /* More rounded corners */
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1); /* Softer, larger shadow */
+            text-align: center;
+            border: 1px solid #e2e8f0; /* Light border */
+        }
+        h1 {
+            color: #2c5282; /* Darker blue for heading */
+            margin-bottom: 1.5rem;
+            font-size: 2.5rem; /* Larger heading */
+            font-weight: 700; /* Bold heading */
+        }
+        p {
+            color: #4a5568; /* Gray for paragraph text */
+            font-size: 1.15rem; /* Slightly larger paragraph text */
+            line-height: 1.75;
+            margin-bottom: 1.5rem;
+        }
+        .button {
+            display: inline-block;
+            background-color: #4299e1; /* Blue button */
+            color: white;
+            padding: 0.8rem 2rem;
+            border-radius: 9999px; /* Pill shape */
+            text-decoration: none;
+            font-weight: 600;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            box-shadow: 0 4px 10px rgba(66, 153, 225, 0.3); /* Button shadow */
+        }
+        .button:hover {
+            background-color: #3182ce; /* Darker blue on hover */
+            transform: translateY(-2px); /* Slight lift on hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to My GitHub Pages Site!</h1>
+        <p>This is a simple static page deployed automatically using GitHub Actions.</p>
+        <p>Feel free to customize this content and push your changes to the `main` branch. The workflow will handle the rest!</p>
+        <a href="https://github.com/your-username/your-repo-name" class="button">Visit My Repository</a>
+    </div>
+</body>
+</html>
